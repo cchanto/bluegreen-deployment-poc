@@ -2,7 +2,7 @@
 
 
 How Does a Blue/Green Deployment Process Work
-The main prerequisite for a blue/green deployment is having two identical production environments, with a router, load balancer, or service mesh that can switch traffic between them. 
+The main prerequisite for a blue/green deployment is having two identical production environments, with a router, load balancer, Ingress  that can switch traffic between them. 
 
 The blue/green deployment process works as follows:
 
