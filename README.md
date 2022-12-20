@@ -24,4 +24,9 @@ There are two  types of the diagram in this repo; I am going to explain what is 
 -Argos CD for Rollouts 
 
 # Using blue/green deployments for progressive delivery
+the second diagram explains what is the idea of using Argos cd 
 
+Blue/green deployments provide zero downtime during deployments and the ability to test your application in production without impacting the stable version. In a typical blue/green deployment on EKS using Kubernetes native resources, a new deployment will be spun up. This includes the new feature version in parallel with the stable deployment (see Figure 1). The new deployment will be tested by a QA team.
+Once all the tests have been successfully conducted, the traffic must be directed from the live version to the new version
+
+Please be aware, there are several manual interactions and decisions involved during a blue/green deployment.
