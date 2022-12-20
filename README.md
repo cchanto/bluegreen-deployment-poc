@@ -2,7 +2,7 @@
 
 
 How Does a Blue/Green Deployment Process Work
-The main prerequisite for a blue/green deployment is having two identical production environments, with a router, load balancer, Ingress  that can switch traffic between them. 
+The main prerequisite for a blue/green deployment has two identical production environments, with a router, load balancer, Ingress that can switch traffic between them. 
 
 The blue/green deployment process works as follows:
 
@@ -13,5 +13,15 @@ Deploy or rollback—if there is a problem, immediately roll back by switching t
 
 
 
-# Diagrams exaplanation
+# Diagrams explanation
+
+There are two  types of the diagram in this repo; I am going to explain what is the whole idea of them.
+1- there is a complete diagram with all teh component of your eks infrastructure in AWS as a cloud service solution; most of those services I chose since there is a lot of advantages of using them since the third part tool provide more reliability to the company in terms you don't need to depend of only one single service 
+
+Gitlab CICD delivering 
+Slack  notification channel 
+Terraform for Iac 
+Argos CD for Rollouts 
+
+# Using blue/green deployments for progressive delivery
 
