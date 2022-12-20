@@ -30,3 +30,6 @@ Blue/green deployments provide zero downtime during deployments and the ability 
 Once all the tests have been successfully conducted, the traffic must be directed from the live version to the new version
 
 Please be aware, there are several manual interactions and decisions involved during a blue/green deployment.
+
+
+Prometheus is a monitoring software that can be used to collect metrics from your application. (Prometheus Query Language)
