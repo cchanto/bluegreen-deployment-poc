@@ -18,10 +18,10 @@ Deploy or rollback—if there is a problem, immediately roll back by switching t
 There are two  types of the diagram in this repo; I am going to explain what is the whole idea of them.
 1- there is a complete diagram with all teh component of your eks infrastructure in AWS as a cloud service solution; most of those services I chose since there is a lot of advantages of using them since the third part tool provide more reliability to the company in terms you don't need to depend of only one single service 
 
-Gitlab CICD delivering 
-Slack  notification channel 
-Terraform for Iac 
-Argos CD for Rollouts 
+-Gitlab CICD delivering 
+-Slack  notification channel 
+-Terraform for Iac 
+-Argos CD for Rollouts 
 
 # Using blue/green deployments for progressive delivery
 
