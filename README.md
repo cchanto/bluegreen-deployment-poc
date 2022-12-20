@@ -33,3 +33,8 @@ Please be aware, there are several manual interactions and decisions involved du
 
 
 Prometheus is a monitoring software that can be used to collect metrics from your application. (Prometheus Query Language)
+
+
+#Blue-Green Deployment file
+
+I've attached an example how is the process in Argos to call the stable env.
